@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>
+   Employees
+ </title> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <table>
+    <tr>
+      <td>
+        <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+          <div>
+            <label>full name</label>
+            <input type = "text" id="name1" name = "fullname">
+          </div>
+          <div>
+            <label>full name</label>
+            <input type = "text" id="name2" name = "fullname">
+          </div>
+          <div>
+            <label>full name</label>
+            <input type = "text" id="name3" name = "fullname">
+          </div>
+          <div>
+            <label>full name</label>
+            <input type = "text" id="name4" name = "fullname">
+          </div>
+          <div class="form-action-buttons">
+            <input type="submit" id="frmSubmit" value="Submit">
+          </div>
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table class="list" id="employeeList">
+          <thead>
+            <tr>
+              <th>full name</th>
+              <th>full name</th>
+              <th>full name</th>
+              <th>full name</th>
+            </tr>
+          </thead><tbody>            
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <script src = "script.js"></script>
+</body>
+
+</html>
